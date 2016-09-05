@@ -7,7 +7,7 @@
       label: "Db password"
       required: true
       default: "fkda83XO9acnq24CCo"
-      type: "string"
+      type: "password"
 
 mariadb:
   scale: 1
