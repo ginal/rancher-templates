@@ -1,0 +1,18 @@
+mariadb:
+  environment:
+    MARIADB_ROOT_PASSWORD: dkc94kacMsNOQ122CA
+    MARIADB_DATABASE: drupal
+    MARIADB_USER: drupal
+    MARIADB_PASSWORD: fkda83XO9acnq24CCo
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: bitnami/mariadb:latest
+  stdin_open: true
+drupal-web:
+  labels:
+    io.rancher.sidekicks: mariadb
+    io.rancher.container.pull_image: always
+  tty: true
+  image: vixns/drupal-nginx
+  stdin_open: true

@@ -1,0 +1,8 @@
+name: Drupal # Name of the Catalog Entry 
+description: |
+  Drual CMS stack: includes nginx, php-fpm and mariadb images
+version: v0.1 # Version of the Catalog to be used 
+category: CMS # Category to be used for searching catalog entries
+maintainer: gnal # The maintainer of the catalog entry
+license: GPL # The license 
+projectURL: www.drupal.log # A URL related to the catalog entry

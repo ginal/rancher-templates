@@ -1,0 +1,4 @@
+mariadb:
+  scale: 1
+drupal-web:
+  scale: 1
