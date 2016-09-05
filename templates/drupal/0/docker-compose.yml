@@ -3,7 +3,7 @@ mariadb:
     MARIADB_ROOT_PASSWORD: dkc94kacMsNOQ122CA
     MARIADB_DATABASE: drupal
     MARIADB_USER: drupal
-    MARIADB_PASSWORD: "${replset_name}"
+    MARIADB_PASSWORD: "${db_pass}"
   labels:
     io.rancher.container.pull_image: always
   tty: true
