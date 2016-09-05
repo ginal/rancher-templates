@@ -1,5 +1,13 @@
 .catalog:
   version: 7-latest
+  description: "Web framework for site and CMS building"
+  questions:    
+    - variable: db_pass
+      description: "Password for database user"
+      label: "Db password"
+      required: true
+      default: "fkda83XO9acnq24CCo"
+      type: "string"
 
 mariadb:
   scale: 1
