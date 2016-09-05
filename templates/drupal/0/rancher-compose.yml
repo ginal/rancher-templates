@@ -1,3 +1,6 @@
+.catalog:
+  version: 7-latest
+
 mariadb:
   scale: 1
 drupal-web:
